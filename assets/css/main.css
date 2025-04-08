@@ -12087,6 +12087,20 @@ ul {
   height: 100%;
   z-index: 50;
 }
+.main-hero-section .shape_path {
+  transform: translateX(100%);
+  fill: #000000;
+  opacity: 0.7;
+}
+.main-hero-section #shapePath1 {
+  transition: all ease-in-out 0.4s;
+}
+.main-hero-section #shapePath2 {
+  transition: all ease-in-out 0.8s;
+}
+.main-hero-section #shapePath3 {
+  transition: all ease-in-out 1.2s;
+}
 .main-hero-section::after {
   content: "";
   position: absolute;
@@ -12103,7 +12117,6 @@ ul {
   fill: #ffffff;
   transform: translateX(100%);
   transition: all ease 0.5s;
-  opacity: 0.9;
 }
 
 .hero-caption {
@@ -12128,7 +12141,7 @@ ul {
   border-radius: 20px;
   background-color: #000000;
   color: #ffffff;
-  transition: all ease-in-out 0.5s;
+  transition: all ease 0.5s;
 }
 .hero-caption .upload-image button i {
   padding-left: 0.5rem;

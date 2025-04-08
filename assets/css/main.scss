@@ -76,6 +76,23 @@
 
 
     }
+    .shape_path{
+        transform: translateX(100%);
+        fill: $uni-color-1;
+        opacity: .7;
+    }
+
+    #shapePath1{
+        transition: all ease-in-out .4s;
+    }
+    #shapePath2{
+        transition: all ease-in-out .8s;
+    }
+    #shapePath3{
+        transition: all ease-in-out 1.2s;
+    }
+
+    
 
 
 
@@ -99,7 +116,7 @@
     fill: $uni-color-2;
     transform: translateX(100%);
     transition: all ease .5s;
-    opacity: .9;
+
 }
 
 
@@ -125,7 +142,7 @@
             border-radius: 20px;
             background-color: $uni-color-1;
             color: $uni-color-2;
-            transition: all ease-in-out .5s;
+            transition: all ease .5s;
             i{
                 padding-left: .5rem;
                 font-size: calc(1rem + .2vw);
@@ -175,6 +192,8 @@
   input:valid {
     border-color: $uni-color-1;
   }
+
+
 
 
 
