@@ -1,0 +1,72 @@
+
+
+
+@media (max-width:1200px){
+    
+.main-hero-section{
+
+
+    .hero-caption{
+        .hero-caption-wrap{
+            flex-direction: column!important;
+            align-items: center;
+            gap: 2rem;
+            .upload-image{
+                width: 50%;
+            }
+
+        }
+    }
+
+}
+}
+
+@media (max-width:991px){
+    
+.main-hero-section{
+
+
+    img.main-hero-img{
+        object-position: left center; /* Directs focus to bottom of image */
+    }
+
+
+}
+    .hero-caption{
+        .hero-caption-wrap{
+
+            .upload-image{
+                width: 100%!important;
+            }
+        }
+        .herocaption-inner{
+            width: 100%;
+        }
+
+    }
+    
+    
+}
+
+
+
+
+@media (max-width:767px){
+.main-hero-section{
+    padding-top: 25rem;
+        img.main-hero-img{
+            object-position: left; /* Directs focus to bottom of image */
+        }
+    
+    
+} 
+
+
+
+.hero-para{
+    display: none;
+}
+    
+}
+
+
