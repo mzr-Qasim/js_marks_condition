@@ -12090,7 +12090,6 @@ ul {
 .main-hero-section .shape_path {
   transform: translateX(100%);
   fill: #000000;
-  opacity: 0.7;
 }
 .main-hero-section #shapePath1 {
   transition: all ease-in-out 0.4s;
@@ -12141,7 +12140,7 @@ ul {
   border-radius: 20px;
   background-color: #000000;
   color: #ffffff;
-  transition: all ease 0.5s;
+  transition: all ease-in-out 0.5s;
 }
 .hero-caption .upload-image button i {
   padding-left: 0.5rem;
